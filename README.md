@@ -11,3 +11,5 @@ Category Filters: Sort photos by categories like portraits, landscapes, or event
 <br>
 💻 Tech Stack<br>
 Frontend: HTML and CSS for a sleek and responsive user interface.
+<br>
+Thank You!
