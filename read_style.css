@@ -1,0 +1,232 @@
+*{
+    margin:0px;
+    padding:0;
+    background-color:#e8e8e8;
+    font-family:'Baskerlive Old Face';
+}
+/* HEAD PORTION */
+#banner{
+    height:200px;
+    width:100%;
+    background-image:url("banner2.jpg");
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border-bottom: 1px solid black;  
+}
+#headbar{
+    background-color:#615EFC;
+    display:flex;
+    justify-content:flex-end;
+    padding:10px;
+}
+.head{
+    text-decoration:none;
+    font-size: large;
+    background-color:#615EFC;
+    color:#EEEEEE;
+    margin:5px;
+}
+#furtherexp{
+    
+    background-color:#7E8EF1;
+    display:flex;
+    justify-content:space-evenly;
+    padding:10px;
+    border-bottom: 1px solid black;
+}
+.expf{
+    text-decoration:none;
+    font-size: large;
+    background-color:#7E8EF1;
+    color:#EEEEEE;
+}
+/* MAIN CONTENT */
+main{
+    margin: 5px;
+    padding: 3px;
+}
+article{
+    border: 3px solid grey ;
+    border-radius: 10px;
+}
+.article-headings{
+    margin: 5px;
+}
+.section-title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 55px;
+}
+.today-top-title{
+    font-size: 30px;  
+}
+.today-top{
+    display: inline;
+}
+#waterfall{
+    height: 200px;
+    width: auto;
+    display: inline;
+    margin: 5px;
+    border-radius: 6px;
+    float: left;
+}
+.archive-img{
+    height: 250px;
+    width: auto;
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+}
+.archive-article{
+    margin: 10px;
+}
+.archive-sec-title{
+    font-size: 30px;  
+}
+.sotries-img{
+    height: 350px;
+    width: auto;
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+}
+.stories-sec-title{
+    font-size: 30px;  
+}
+.stories-content{
+    margin: 10px;
+}
+
+
+
+.ad-container {
+    border: 2px solid #cad4ca;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.ad-heading {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.ad-text {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+.sign-up-btn {
+    background-color: #615EFC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sign-up-btn:hover {
+    background-color: #45a049;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #aaa;
+}
+
+
+
+
+/* FOOT PORTIONS  */
+#foot{
+    color:black;
+    border-top: 1px solid black;
+    font-weight:lighter;
+    font-family: "Arial";
+}
+
+#foot-social{
+    background-color:#ffa114;
+    height:35px;
+    display:flex;
+    justify-content:flex-start;
+}
+a{
+    text-decoration: none;
+}
+.social{
+    height:35px;
+    border-radius:8px;
+    margin-right:8px;
+    
+}
+.social-link{
+    background-color: #ffa114;
+}
+ #mail-address{
+    position:absolute;
+    right: 3px ;
+    align-self: center;
+} 
+#mail-address-logo{
+    position:absolute;
+    right: 23px ;
+    align-self: center;
+}
+#foot-details{
+    background-color:#1e1f20;
+    color: white;
+    height: 300px;
+}
+#foot-title{
+    background-color:#1e1f20;
+    color: white;
+    font-family: "Arial";
+    font-weight: lighter;
+}
+.details-footer{
+    background-color:#1e1f20;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+#details-foot{
+    background-color:#1e1f20;
+    color: white;  
+    padding:20px;
+ 
+}
+.about-foot{
+    background-color:#1e1f20;
+    color: white; 
+    padding:20px;
+}
+.help{
+    background-color:#1e1f20;
+    color: white; 
+    padding:20px;
+}
+.Newsletter{
+    background-color:#1e1f20;
+    color: white; 
+    padding:20px;
+}
+#sign-up{
+    background-color:#1e1f20;
+    color: white;
+    height: 35px; 
+    width: 75px;
+    border-radius: 10px;
+
+}
